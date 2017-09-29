@@ -19,6 +19,7 @@ from django.contrib import admin
 urlpatterns = [ 
     url(r'^polls/', include('polls.urls')),
     url(r'^polllls/', include('polls.urls')),
-#    url(r'^polls/', include('polls.urls')),
+#    url(r'^polls/', include('polls.urls')), localhost:8000/ showing error currently
+#    without including polls.urls, localhost:8000/ doing fine
     url(r'^admin/', admin.site.urls),
 ]
