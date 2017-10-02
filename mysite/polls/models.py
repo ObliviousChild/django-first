@@ -16,3 +16,4 @@ class Choice(models.Model):
     votes = models.IntegerField("I am votes. human-readable name.",default=0)
     def __str__(self):
         return self.choice_text
+
